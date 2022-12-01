@@ -1,0 +1,12 @@
+
+.blocks{
+    background-color: aliceblue;
+    padding: 2%;
+    border-radius: 33px;
+    display: flex;
+	flex-direction: column;
+    margin:2%;
+}
+iframe{
+    margin:2%;
+}

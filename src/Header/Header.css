@@ -1,0 +1,157 @@
+@media screen and (min-width: 320px) {
+  .signin {
+    padding: 10px !important;
+    height: 50px !important;
+  }
+  .signup {
+    padding: 10px !important;
+    height: 50px !important;
+  }
+  .header {
+    align-items: center !important;
+    text-align: center  !important;
+    flex-direction: column  !important;
+  }
+  .frame3{
+   margin-left: 15%;
+  }
+  .frame2{
+    text-align: center;
+    margin-left:3%;
+  }
+  .frame1{
+    margin-left: -3% !important;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .signin {
+    padding: 10px !important;
+    height: 50px !important;
+  }
+  .signup {
+    padding: 10px !important;
+    height: 50px !important;
+  }
+  .header {
+    align-items: center !important;
+    text-align: center  !important;
+    flex-direction: column  !important;
+  }
+  .frame3{
+   margin-left: 15%;
+  }
+  .frame1{
+    margin-left: 3% !important;
+  }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .signin {
+    padding: 5px !important;
+    height: 25px !important;
+    text-align: center;
+  }
+  .signup {
+    padding: 5px !important;
+    margin-top: 2%;
+    height: 25px !important;
+    text-align: center !important;
+  }
+  .header {
+    align-items: center !important;
+    text-align: center  !important;
+    flex-direction: row  !important;
+  }
+  .frame3{
+   margin-left: 0;
+  }
+  .frame1{
+    margin-left: 5% !important;
+  }
+  
+}
+@media screen and (min-width: 1024px) {
+  .signup {
+    margin-top: 0 !important;}
+}
+
+
+.header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.02);
+}
+a:active, /* активная/посещенная ссылка */
+  a:hover,  /* при наведении */
+  a {
+  text-decoration: none;
+  color: rgba(17, 38, 76, 1);
+}
+
+.frame1,
+.frame2,
+.frame3 {
+  padding: 15px;
+}
+
+.frame1 {
+  padding-left: 50px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.frame2 {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+}
+.frame3 {
+  padding-right: 50px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 20px;
+  /*display: inline-block;*/
+  min-width: 200px;
+  background-color: white;
+}
+
+.frame21 {
+  margin-right: 20px;
+}
+
+.signin {
+  background-color: #21d495;
+  border-radius: 33px;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  vertical-align: top;
+  height: 100%;
+  min-width: 100px;
+}
+
+.signup {
+  border-radius: 33px;
+  color: #21d495;
+  padding: 8px 20px;
+  min-width: 100px;
+  border: none;
+  vertical-align: top;
+  height: 100%;
+  border: 1px solid #21d495;
+  /*border: 1px solid #21D495;
+    border-radius: 33px;
+    color:#21D495;
+    padding: 8px 20px;
+    margin-left: 15px;
+    min-width: 150px;*/
+}
